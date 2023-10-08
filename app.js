@@ -27,9 +27,6 @@ app.post("/", (req, res) => {
     items.push(item);
     res.redirect("/");
   }
-
-  items.push(item);
-  res.redirect("/");
 });
 
 app.get("/work", (req, res) => {
